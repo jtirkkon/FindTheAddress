@@ -6,8 +6,6 @@ import MapView, { Marker} from'react-native-maps';
 
 export default function App() {
   const [address, setAddress] = useState('');
-  const [latitude, setLatitude] = useState(60.200692);
-  const [longitude, setLongitude] = useState(24.934302);
   const [position, setPosition] = useState({latitude: 60.200692, longitude: 24.934302})
   const [markerAddress, setMarkerAddress] = useState({street: '', city: ''});
 
